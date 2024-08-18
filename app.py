@@ -51,3 +51,6 @@ def submit_restaurant():
             print(f"Meal Image saved to: {meal_image_path}")
     
     return redirect(url_for('index'))
+
+if __name__ == "__main__":
+    app.run(debug=True)
